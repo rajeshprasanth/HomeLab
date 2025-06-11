@@ -1,8 +1,3 @@
-Here’s a clean, professional, and informative `README.md` tailored for your [HomeLab GitHub repository](https://github.com/rajeshprasanth/HomeLab/), assuming it's meant to publicly document your infrastructure configurations:
-
----
-
-```markdown
 # 🧪 RP HomeLab Configuration Repository
 
 Welcome to the **RP HomeLab** repository!  
