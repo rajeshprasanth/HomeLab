@@ -58,25 +58,13 @@ This repository documents:
 
 ```
 
-HomeLab/
-├── dns/
-│   ├── bind9/
-│   └── zones/
-├── monitoring/
-│   ├── zabbix/
-│   ├── grafana/
-│   └── uptimkuma/
-├── automation/
-│   ├── jenkins/
-│   ├── rundeck/
-│   └── scripts/
-├── services/
-│   ├── home-assistant/
-│   ├── nginx-proxy-manager/
-│   └── mail/
-├── docker-stacks/
-│   └── portainer/
+HomeLab
+├── Homepage-Dashboard
+│   └── compose
+│       └── docker-compose.yml
+├── LICENSE
 └── README.md
+
 
 ```
 
