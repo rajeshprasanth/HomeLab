@@ -8,4 +8,4 @@ services:
       - /home/srcadm/apps/homepage-dashboard/data:/app/config # Make sure your local config directory exists
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations, see alternative methods
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: 10.0.0.93:3010,dc01plpmon003.rphomelab.in:3010 # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
+      HOMEPAGE_ALLOWED_HOSTS: 10.0.0.93:3010,dc01plpmon003.rphomelab.in:3010,dashboard.internal.das # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
