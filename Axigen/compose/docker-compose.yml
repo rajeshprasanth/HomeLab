@@ -16,5 +16,5 @@ services:
     volumes:
       - /home/srcadm/apps/axigen/data:/var/axigen
       - /home/srcadm/apps/axigen/license:/opt/axigen/license
-    restart: unless-stopped
+    restart: unless-stopped 
     hostname: dc01plpmon003.rphomelab.in
