@@ -93,7 +93,6 @@ To protect the security of the environment, the following are **not** included:
 
 Maintained by **Rajesh Prashanth Anandavadivel**  
 📧 [rajeshprasanth@rediffmail.com](mailto:rajeshprasanth@rediffmail.com)  
-🌐 [rphomelab.in](http://rphomelab.in) (for internal access)
 
 ---
 
@@ -107,6 +106,3 @@ See the [LICENSE](./LICENSE) file for more details.
 > ⭐ If you find this helpful or want to learn from a structured homelab setup, consider starring the repo!
 ```
 
----
-
-Let me know if you'd like this automatically added to the repo or customized with any extra sections like badges, services map, or contributors.
