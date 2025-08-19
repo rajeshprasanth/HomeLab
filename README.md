@@ -1,11 +1,11 @@
-# 🧪 RP HomeLab Configuration Repository
+# RP HomeLab Configuration Repository
 
 Welcome to the **RP HomeLab** repository!  
 This repository hosts the **public-facing configuration files** and documentation for my personal homelab infrastructure, intended for learning, reference, and knowledge sharing.
 
 ---
 
-## 🌐 Overview
+## Overview
 
 My homelab setup is a self-hosted, production-like environment used for experimenting with tools, technologies, and service orchestration. It includes a mix of physical and virtual infrastructure, DNS, monitoring, automation, service deployment, and more.
 
@@ -21,14 +21,14 @@ This repository documents:
 
 ---
 
-## 🧩 Components Covered
+## Components Covered
 
-### 🖥️ Infrastructure
+### Infrastructure
 - Server naming conventions
 - IP addressing scheme
 - Network layout and topology
 
-### 🧠 Core Services
+### Core Services
 - DNS (BIND9 zone files and config)
 - DHCP & Static Reservations (template)
 - NGINX Proxy Manager
@@ -43,18 +43,18 @@ This repository documents:
 - GitLab integration for GitOps workflows
 - Custom scripts for deployment/maintenance
 
-### 📈 Observability
+### Observability
 - Zabbix templates (non-sensitive)
 - Grafana dashboard exports
 - SNMP monitoring examples
 
-### 📦 Docker / Portainer
+### Docker / Portainer
 - Stack deployment YAMLs
 - Compose templates for services
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```
 
@@ -70,7 +70,7 @@ HomeLab
 
 ---
 
-## 🚀 Goals
+## Goals
 
 - Document a reproducible and structured homelab setup
 - Serve as a knowledge base for common homelab tools
@@ -79,7 +79,7 @@ HomeLab
 
 ---
 
-## 🔒 What’s Not Included
+##  What’s Not Included
 
 To protect the security of the environment, the following are **not** included:
 - Secrets / passwords / API keys
@@ -89,14 +89,14 @@ To protect the security of the environment, the following are **not** included:
 
 ---
 
-## 📬 Contact
+## Contact
 
 Maintained by **Rajesh Prashanth Anandavadivel**  
 📧 [rajeshprasanth@rediffmail.com](mailto:rajeshprasanth@rediffmail.com)  
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
 See the [LICENSE](./LICENSE) file for more details.
