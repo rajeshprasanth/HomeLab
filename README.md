@@ -104,5 +104,3 @@ See the [LICENSE](./LICENSE) file for more details.
 ---
 
 > ⭐ If you find this helpful or want to learn from a structured homelab setup, consider starring the repo!
-```
-
