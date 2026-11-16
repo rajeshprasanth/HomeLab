@@ -1,0 +1,18 @@
+---
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    user: root
+    container_name: prometheus
+    restart: unless-stopped
+    ports:
+      - "9094:9090"  # Expose Prometheus web UI
+    volumes:
+      - /home/srcadm/apps/prometheus/data/prometheus.yml:/etc/prometheus/prometheus.yml  # Mount Prometheus config
+      - /home/srcadm/apps/prometheus/data:/prometheus  # Mount data directory to persist data
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    driver: bridge

@@ -1,0 +1,12 @@
+---
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material:latest
+    container_name: pulse-mkdocs
+    volumes:
+      - /home/srcadm/apps/pulse-mkdocs/data:/docs
+      - /home/srcadm/apps/pulse-mkdocs/data/mkdocs.yml:/mkdocs.yml
+    ports:
+      - "3090:8000"
+    command: serve -a 0.0.0.0:8000
+    restart: unless-stopped

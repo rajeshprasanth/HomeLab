@@ -1,0 +1,19 @@
+---
+services:
+    semaphore-ui:
+        ports:
+            - 5029:3000
+        image: semaphoreui/semaphore:latest
+        container_name: semaphore-ui
+        restart: unless-stopped
+        environment:
+            SEMAPHORE_DB_DIALECT: sqlite
+            SEMAPHORE_ADMIN: ${SEMAPHORE_ADMIN_KEY}
+            SEMAPHORE_ADMIN_PASSWORD: ${SEMAPHORE_ADMIN_PASSWORD_KEY}
+            SEMAPHORE_ADMIN_NAME: ${SEMAPHORE_ADMIN_NAME_KEY}
+            SEMAPHORE_ADMIN_EMAIL: ${SEMAPHORE_ADMIN_EMAIL_KEY}
+            SEMAPHORE_SCHEDULE_TIMEZONE: "Asia/Kolkata"
+        volumes:
+            - /home/srcadm/apps/semaphore-ui/data/data_dir:/var/lib/semaphore
+            - /home/srcadm/apps/semaphore-ui/data/config:/etc/semaphore
+            - /home/srcadm/apps/semaphore-ui/data/tmp:/tmp/semaphore

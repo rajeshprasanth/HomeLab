@@ -1,0 +1,16 @@
+---
+services:
+  npm:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nginx-proxy-manager
+    restart: unless-stopped
+    ports:
+      - '80:80'        # HTTP Port
+      - '81:81'        # Admin Console
+      - '443:443'      # HTTPS Port
+    volumes:
+      - /home/srcadm/apps/nginx-proxy-manager/data:/data
+      - /home/srcadm/apps/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+    environment:
+      DB_SQLITE_FILE: "/data/database.sqlite"   # SQLite file in /data
+      TZ: "Asia/Kolkata"
